@@ -1,0 +1,33 @@
+.container{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+.box{
+    display: flex;
+    gap: 40px;
+    border: 2px dashed;
+    cursor: grab;
+    height: 400px;
+    width: 400px;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.lists{
+    margin-top: 10px;
+    border: 1px solid;
+    height: 35px;
+    width: 200px;
+    text-align: center;
+    font-size: larger;
+    background-color: aquamarine;
+
+}
